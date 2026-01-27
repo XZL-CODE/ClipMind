@@ -9,26 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 12) {
-            Image(systemName: "sparkles")
-                .imageScale(.large)
-                .foregroundStyle(.orange)
-                .font(.system(size: 44))
-            Text("ClipMind")
-                .font(.system(size: 30, weight: .black, design: .serif))
-                .foregroundStyle(.primary)
-            Text("灵感一闪，即刻捕捉")
-                .font(.system(size: 15, weight: .regular))
-                .foregroundStyle(.secondary)
+        VStack(spacing: 14) {
+            ZStack {
+                Circle()
+                    .fill(.purple.opacity(0.15))
+                    .frame(width: 80, height: 80)
+                Image(systemName: "brain.head.profile")
+                    .font(.system(size: 36))
+                    .foregroundStyle(.purple.gradient)
+            }
+            
+            VStack(spacing: 4) {
+                Text("ClipMind")
+                    .font(.system(size: 30, weight: .bold, design: .monospaced))
+                    .tracking(1.5)
+                Text("智能剪贴，思维延伸")
+                    .font(.system(size: 14, design: .rounded))
+                    .foregroundStyle(.purple.opacity(0.7))
+            }
         }
-        .padding(.vertical, 32)
-        .padding(.horizontal, 40)
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
-        .overlay(
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .stroke(.orange.opacity(0.2), lineWidth: 1)
+        .padding(36)
+        .background(
+            RoundedRectangle(cornerRadius: 30, style: .continuous)
+                .fill(.regularMaterial)
+                .shadow(color: .purple.opacity(0.15), radius: 20, x: 0, y: 10)
         )
-        .shadow(color: .black.opacity(0.05), radius: 15, x: 0, y: 8)
     }
 }
 
