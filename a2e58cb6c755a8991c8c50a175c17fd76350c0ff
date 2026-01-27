@@ -1,0 +1,37 @@
+ClipMind/ContentView.swift
+  cce7dc1177030070 13-14,16,20-22,29,33-34
+  0fd5eeb3d01edae0 15,17-19,26-28,35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.37",
+  "base_commit_sha": "a2e58cb6c755a8991c8c50a175c17fd76350c0ff",
+  "prompts": {
+    "0fd5eeb3d01edae0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cf46e6a3-e0b4-4f91-b3aa-16be1a4b8210",
+        "model": "claude-opus-4-5-20251101"
+      },
+      "human_author": "MacBookPro <abc10086xzl@gmail.com>",
+      "messages": [],
+      "total_additions": 8,
+      "total_deletions": 8,
+      "accepted_lines": 8,
+      "overriden_lines": 0
+    },
+    "cce7dc1177030070": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "78cac16c-05f6-45b8-b99a-20d65e3bc34e",
+        "model": "accounts/fireworks/models/kimi-k2-instruct-0905"
+      },
+      "human_author": "MacBookPro <abc10086xzl@gmail.com>",
+      "messages": [],
+      "total_additions": 27,
+      "total_deletions": 21,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    }
+  }
+}
