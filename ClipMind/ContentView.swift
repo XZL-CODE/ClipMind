@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 14) {
+        VStack(spacing: 16) {
             ZStack {
                 Circle()
                     .fill(.purple.opacity(0.15))
                     .frame(width: 80, height: 80)
                 Image(systemName: "brain.head.profile")
-                    .font(.system(size: 36))
+                    .font(.system(size: 40))
                     .foregroundStyle(.purple.gradient)
             }
             
