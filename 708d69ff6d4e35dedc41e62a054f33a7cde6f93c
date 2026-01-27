@@ -1,0 +1,23 @@
+ClipMind/ContentView.swift
+  3d586a80a5ef0d38 12,18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.37",
+  "base_commit_sha": "708d69ff6d4e35dedc41e62a054f33a7cde6f93c",
+  "prompts": {
+    "3d586a80a5ef0d38": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2737d829-bad0-4123-84df-4ee7522a2178",
+        "model": "claude-haiku-4-5-20251001"
+      },
+      "human_author": "xzl-youibot-macmini <xuzilin@youibot.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}
