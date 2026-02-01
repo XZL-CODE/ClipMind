@@ -1,0 +1,59 @@
+xcode_guide.svg
+  1a689a69945342cb 1-91
+ClipMind/Features/History/HistoryStore.swift
+  1a689a69945342cb 1-199
+ClipMind/Features/Clipboard/PasteboardWatcher.swift
+  1a689a69945342cb 1-218
+ClipMind/ClipMind.entitlements
+  1a689a69945342cb 1-8
+ClipMind/Models/UserPreferences.swift
+  1a689a69945342cb 1-146
+ClipMind/Features/Pins/PinManager.swift
+  1a689a69945342cb 1-145
+ClipMind/ClipMindApp.swift
+  1a689a69945342cb 5,9-12,16-18,20-129,132-1133,1135-1136,1139-1523,1525
+ClipMind/Utilities/Constants.swift
+  1a689a69945342cb 1-127
+ClipMind/Features/Hotkeys/HotkeyManager.swift
+  1a689a69945342cb 1-269
+ClipMind/Features/Search/SearchEngine.swift
+  1a689a69945342cb 1-176
+ClipMind/Models/ClipboardItem.swift
+  1a689a69945342cb 1-199
+ClipMind/UI/Components/CodeHighlighter.swift
+  1a689a69945342cb 1-413
+ClipMind/UI/MenuBar/ClipItemRow.swift
+  1a689a69945342cb 1-350
+ClipMind/App/AppState.swift
+  1a689a69945342cb 1-129
+ClipMind/Features/Clipboard/ClipboardManager.swift
+  1a689a69945342cb 1-275
+ClipMind/UI/Components/SearchBar.swift
+  1a689a69945342cb 1-185
+ClipMind/UI/MenuBar/MenuBarView.swift
+  1a689a69945342cb 1-661
+ClipMind/UI/ContentView.swift
+  1a689a69945342cb 1-125
+ClipMind/Features/Privacy/PrivacyManager.swift
+  1a689a69945342cb 1-141
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.40",
+  "base_commit_sha": "24434706305f6a8af3b21a4ec2428f50ff062695",
+  "prompts": {
+    "1a689a69945342cb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "25401d4c-39bc-4b47-8cac-cf9bb6387586",
+        "model": "claude-opus-4-5-20251101"
+      },
+      "human_author": "MacBookPro <abc10086xzl@gmail.com>",
+      "messages": [],
+      "total_additions": 6157,
+      "total_deletions": 790,
+      "accepted_lines": 5368,
+      "overriden_lines": 1
+    }
+  }
+}
